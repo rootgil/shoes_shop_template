@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500&family=Secular+One&family=Signika&display=swap');
+*{
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Signika', sans-serif;
+}
+body{
+    box-sizing: border-box;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+nav{
+    position: fixed;
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding: 25px 0 25px 0;
+}
+.nav1{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav2{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.logo{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.9em;
+    margin: 0;
+    color: #1f2022;
+}
+.nav1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+.nav1 ul li{
+    list-style: none;
+}
+.nav1 ul li a{
+    position: relative;
+    text-decoration: none;
+    margin:0 20px;
+    color: #78797a;
+}
+.small_img{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    margin: 0 0 0 30px;
+}
+#section{
+    position: relative;
+    width: 100%;
+    padding-top: 13%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aside1{
+    width: 40%;
+    height: 70vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aside2{
+    width: 50%;
+    /*padding-left: 120px;*/
+}
+.article{
+    height: 76px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+.img_product{
+    width: 320px;
+    height: 360px;
+    border-radius: 14px;
+}
+.img_article{
+    width: 70px;
+    height: 74px;
+    border-radius: 8px;
+    display: block;
+}
+.over1,.over2,.over3,.over4{
+    width: 64px;
+    height: 69px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 74px;
+    border: 3px solid #ecb17d;
+    background-color: rgba(255, 255, 255);
+    opacity:0;
+}
+.img1:hover .over1{
+    opacity:0.582;
+    transition: 0.5s ease;
+}
+.img2:hover .over2{
+    opacity:0.582;
+    transition: 0.5s ease;
+}
+.img3:hover .over3{
+    opacity:0.582;
+    transition: 0.5s ease;
+}
+.img4:hover .over4{
+    opacity:0.582;
+    transition: 0.5s ease;
+}
+.img1,.img2,.img3{
+    height: 76px;
+    width: 68px;
+    margin-right: 15px;
+}
+span{
+    display: block;
+}
+#first{
+    color: #f58515d2;
+    letter-spacing: 2px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.aside2 h1{
+    font-size: 2.6em;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.aside2 p{
+    font-size: 1.2em;
+    color: #b0afb4;
+}
+.price{
+    display: flex;
+    width: 35%;
+    align-items:space-evenly;
+    justify-content: space-between;
+    /*border: 2px solid yellow;*/
+}
+.price .price1{
+    font-size: 1.6em;
+    font-weight: bolder;
+}
+.price .price2{
+    background-color: #f8d4ae;
+    justify-content:center ;
+    font-weight: bolder;
+    border-radius: 6px;
+    color:#ec8429;
+    padding: 4px;
+}
+.sub_price{
+    color: #b0afb4;
+    font-weight: bolder;
+    text-decoration: line-through;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.icon1{
+    width: 20px;
+    height: 20px;
+}
+.foot{
+    display: flex;
+    width: 90%;
+    margin-top: 30px;
+}
+.add{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    background-color: #eff2ff;
+    width: 30%;
+    padding: 8px;
+    font-size: 1.2em ;
+    border-radius: 5px;
+}
+.symbol{
+    color:#ec8429;
+    font-size: 1.4em ;
+}
+.card{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7d1b;
+    color: #ffe9be;
+    font-size: 1em ;
+    border-radius: 5px;
+    margin-left: 20px;
+    box-shadow: 0 0 4px #ff7d1b;
+    text-align: center;
+}
+.card span{
+    padding-left: 8px;
+}
+.foot:hover{
+    cursor: pointer;
+}
